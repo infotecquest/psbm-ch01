@@ -32,7 +32,7 @@ public class SpringBootJournalApplication {
 //		};
 //	}
 	
-	@Bean
+	/*@Bean
 	CommandLineRunner start(JournalService service) {
 		return args -> {
 			log.info("@@ Inserting Data...");
@@ -40,7 +40,7 @@ public class SpringBootJournalApplication {
 			log.info("@@ findAll() calll..");
 			service.findAll().forEach(entry -> log.info(entry.toString()));
 		};
-	}
+	}*/
 	
 	public static void main(String[] args) {
 		//SpringApplication.run(SpringBootJournalApplication.class, args);
